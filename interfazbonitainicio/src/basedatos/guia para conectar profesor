@@ -2,8 +2,8 @@ La base de datos no es online en mi caso y se debe ejecutar de nuevo de forma lo
 es decir en su computadora profesor.
 
 Pasos que debe seguir
-Configure la contraseña, usuario y url porfavor
+Configure la contraseña, usuario y url porfavor en ConexionBD.java
 
-1. Abre tu gestor de MySQL (phpMyAdmin, Workbench, etc.).
+1. Abre tu gestor de MySQL (Workbench, etc.).
 2. Ejecuta el archivo `basedatos/estructura_bd.sql`.
 
