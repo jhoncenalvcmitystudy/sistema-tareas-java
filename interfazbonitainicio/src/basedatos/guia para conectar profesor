@@ -1,0 +1,9 @@
+La base de datos no es online en mi caso y se debe ejecutar de nuevo de forma local,
+es decir en su computadora profesor.
+
+Pasos que debe seguir
+Configure la contraseña, usuario y url porfavor
+
+1. Abre tu gestor de MySQL (phpMyAdmin, Workbench, etc.).
+2. Ejecuta el archivo `basedatos/estructura_bd.sql`.
+

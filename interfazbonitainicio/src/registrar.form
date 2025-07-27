@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="registrar">
+  <grid id="27dc6" binding="panel_registro" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="646" height="646"/>
+    </constraints>
+    <properties>
+      <background color="-11549497"/>
+      <minimumSize width="642" height="383"/>
+      <preferredSize width="772" height="404"/>
+    </properties>
+    <border type="empty">
+      <size top="40" left="40" bottom="40" right="40"/>
+    </border>
+    <children>
+      <grid id="29317" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16745780"/>
+        </properties>
+        <border type="empty" title-justification="2">
+          <font/>
+          <title-color color="-2104859"/>
+          <size top="0" left="0" bottom="0" right="0"/>
+        </border>
+        <children>
+          <grid id="8c462" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none" title-justification="2" title-position="2"/>
+            <children>
+              <grid id="3857d" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="30" left="30" bottom="83" right="30"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none" title-justification="2" title-position="2"/>
+                <children>
+                  <component id="9e600" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16734047"/>
+                      <font name="SansSerif" size="28" style="1"/>
+                      <foreground color="-16731720"/>
+                      <text value="REGISTRARSE"/>
+                    </properties>
+                  </component>
+                  <component id="2125a" class="javax.swing.JTextField" binding="txtnombre">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <background color="-1"/>
+                      <dropMode value="USE_SELECTION"/>
+                      <editable value="true"/>
+                      <enabled value="true"/>
+                      <font size="16"/>
+                      <horizontalAlignment value="2"/>
+                      <opaque value="true"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="83700" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Nombres:"/>
+                    </properties>
+                  </component>
+                  <component id="fd5be" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Apellido materno:"/>
+                    </properties>
+                  </component>
+                  <component id="9467a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-14606047"/>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Apellido paterno:"/>
+                    </properties>
+                  </component>
+                  <component id="4c082" class="javax.swing.JTextField" binding="txt_apellido_paterno">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <background color="-1"/>
+                      <dropMode value="USE_SELECTION"/>
+                      <editable value="true"/>
+                      <enabled value="true"/>
+                      <font size="16"/>
+                      <horizontalAlignment value="2"/>
+                      <opaque value="true"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="70403" class="javax.swing.JTextField" binding="txt_apellido_materno">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <background color="-1"/>
+                      <dropMode value="USE_SELECTION"/>
+                      <editable value="true"/>
+                      <enabled value="true"/>
+                      <font size="16"/>
+                      <horizontalAlignment value="2"/>
+                      <opaque value="true"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="3e30" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="74" left="30" bottom="30" right="30"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none" title-justification="2" title-position="2"/>
+                <children>
+                  <component id="692d4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Contraseña:"/>
+                    </properties>
+                  </component>
+                  <component id="c86e3" class="javax.swing.JButton" binding="btn_registrar">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16726837"/>
+                      <borderPainted value="false"/>
+                      <enabled value="true"/>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="true"/>
+                      <margin top="10" left="20" bottom="10" right="20"/>
+                      <text value="Continuar"/>
+                    </properties>
+                  </component>
+                  <component id="7133c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Correo electronico:"/>
+                    </properties>
+                  </component>
+                  <component id="bb555" class="javax.swing.JTextField" binding="correo">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <background color="-1"/>
+                      <dropMode value="USE_SELECTION"/>
+                      <editable value="true"/>
+                      <enabled value="true"/>
+                      <font size="16"/>
+                      <horizontalAlignment value="2"/>
+                      <opaque value="true"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="293ff" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-14606047"/>
+                      <font name="SansSerif" size="16" style="1"/>
+                      <foreground color="-14606047"/>
+                      <text value="Confirmar contraseña:"/>
+                    </properties>
+                  </component>
+                  <component id="b81b5" class="javax.swing.JPasswordField" binding="txt_confirmar_llave1">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <focusTraversalPolicyProvider value="true"/>
+                      <font size="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="18365" class="javax.swing.JPasswordField" binding="txt_llave_1">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="25"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <focusTraversalPolicyProvider value="true"/>
+                      <font size="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
